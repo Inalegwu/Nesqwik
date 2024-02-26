@@ -1,0 +1,20 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Todo {
+  id: String!
+  content: String!
+}
+
+type User {
+  id: Int!
+  username: String!
+  displayName: String!
+}
+
+type Query {
+  getUser: User!
+  getUserById: User!
+  getTodos: Todo!
+}
